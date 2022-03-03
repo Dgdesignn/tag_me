@@ -3,7 +3,7 @@
 
 `Neste projecto usei um input, quando uma palavra é digita e depois pressionar ENTER a palavra se torna numa Tag onde essa mesma Tag pode se remover`
 
-[Clique aqui para ver como funciona]()
+[Clique aqui para ver como funciona](https://dgdesignn.github.io/tag_me/)
 
 #### Me ajude a melhor esta idia:
 - O que achaste da implementação?
