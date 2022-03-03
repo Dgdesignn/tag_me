@@ -1,0 +1,49 @@
+.tag-container{
+    font-size: 1.4rem;
+    width: 460px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tag{
+    display: inline-block;
+    margin-right: 12px;
+    color: dodgerblue;
+    padding: 10px 14px 8px 14px;
+    border-bottom: 4px solid dodgerblue;
+    position: relative;
+}
+
+.tag-container input{
+    margin-top: 22px;
+    padding: 12px;
+    width: 100%;
+    outline: none;
+    transition: .4s;
+    border: thin solid rgb(15, 59, 104);
+    border-radius: 40px;
+    font-size: 1.2rem;
+}
+
+.tag-container input:hover,
+.tag-container input:focus{
+    border: thin solid dodgerblue;
+}
+
+
+.tag-container .tag span .close{
+    background-color: dodgerblue;
+    margin-left: 10px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    color: white;
+    display: inline-block; 
+    transition: .4s;  
+}
+
+.tag-container .tag span .close:hover{
+    color: dodgerblue;
+    cursor: pointer;
+    background-color: white;
+}
+
