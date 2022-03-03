@@ -39,9 +39,10 @@ function createTag(tag){
     div.append(span);
 
     const i = document.createElement('i');
+    i.classList.add('icon-close');
     i.classList.add('close');
     i.setAttribute('data-item',tag)
-    i.innerText = 'x';
+
     i.onclick = removeTag;
     span.append(i)
 
