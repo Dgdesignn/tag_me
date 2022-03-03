@@ -1,6 +1,8 @@
 let tags = [];
 let tagContainer = document.querySelector('.tag-container');
-let input =  tagContainer.querySelector('input');
+let input =  document.querySelector('#input');
+
+
 
 input.addEventListener('keyup',addTags);
 
@@ -16,6 +18,8 @@ function addTags(event){
 
        upDateTags()
        input.value = '';
+
+   
     }  
 }
 
